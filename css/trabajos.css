@@ -1,0 +1,24 @@
+.container_main1_iframes{
+    margin-top: 150px;
+    display: flex;
+    margin-bottom: 70px;
+
+}
+
+.section_iframe{
+    height: 352px;
+    width: 348px;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-bottom: 20px;
+}
+
+.main_section_iframes{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}

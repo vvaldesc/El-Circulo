@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: Br2;
+}
+
+@font-face {
+    font-family: Br;
+    src: url("../assets/fonts/CocomatUltralighttrial.ttf");
+}
+
+@font-face {
+    font-family: Br2;
+    src: url("../assets/fonts/texgyreadventor-regular.otf");
+}
+
+@font-face {
+    font-family: Br3;
+    src: url("../assets/fonts/texgyreadventor-bolditalic.otf");
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+
+.container,.container_contacto,.container_roaster,.container_imagen{
+    bottom: 50px;
+    margin: auto;
+    min-width: 600px;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.container_imagen{
+    background-image: url(../assets/img/wp2711231.jpg);
+    background-size: cover;
+    box-shadow: inset 0px 0px 50px 50px black;
+
+}
+
+.container_contacto{
+    margin-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container_hrVertical_right{
+    margin-left: auto;
+}
+
+.container_hrVertical_left{
+    margin-right: auto;
+}
+
+
+
+.main_section1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_img1,.section_img2{
+    background-image: url(../assets/img/1502779-min.jpg);
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.section_img2{
+    background-image: url(../assets/img/wp2990697.jpg);
+}
+
+.main_text,.main_text_right,.main_text_sinBorde,.main_text_centrado,.main_text_centradoPequeño{
+    font-family: Br3;
+    font-size: 3em;
+    border-right: 3px solid yellow;
+    width: 48%;
+    padding-right: 22px;
+    margin: 30px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.116);
+}
+
+.main_text_right{
+    border-left: 3px solid yellow;
+    border-right: 0;
+    padding-left: 30px;
+}
+
+.main_text_sinBorde{
+    border: 0;
+}
+
+.main_text_centrado,.main_text_centradoPequeño{
+    border: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.main_text_centradoPequeño{
+    font-size: 1.2em;
+    width: 70%;
+    margin: auto;
+    text-decoration: none;
+}
+
+.footer_a_rights,.footer_a_rightsCursiva{
+    font-size: 0.7em;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footer_a_rightsCursiva{
+    font-size: 0.9em;
+}

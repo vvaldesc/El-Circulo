@@ -1,0 +1,102 @@
+.container_inicio{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 
+    0px 0 5px rgba(255, 255, 255, 0.5), 
+    inset 0px 0 5px rgba(255, 255, 255, 0.5);
+    background-color: black;
+}
+
+.main_inicio{
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.li_link_sesion{
+    width: 50%;
+    margin: auto;
+}
+
+.a_p_info,.form_a{
+    font-size: 0.8em;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.form_input{
+    width: 70%;
+    margin: auto;
+    background-color: rgba(255, 255, 0, 0.042);
+    border: 2px solid yellow;
+    height: 30px;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    color: yellow;
+    font-family: Br3;
+    text-align: center;
+    text-decoration: none;
+    transition: 300ms;
+
+}
+
+.form_input::placeholder{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.form_input:focus{
+    box-shadow: 4px 8px 0 0px rgba(255, 255, 255, 0.2);
+    transition: 300ms;
+}
+
+.form_p{
+    font-size: 0.7em;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.form_div{
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.237);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form_div_género{
+    margin: auto;
+    width: 45%;
+    border: 1px so;
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: space-around;
+
+}
+
+.div_label{
+    text-align: center;
+}
+
+.div_radio{
+    margin: auto;
+    transition: 300ms;
+    cursor: pointer;
+    display: block;
+    color: grey;
+
+}
+form{
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+

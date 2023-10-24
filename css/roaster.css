@@ -1,0 +1,64 @@
+.container_roaster{
+    margin-top: 110px;
+    margin-bottom: 80px;
+}
+
+.container_section_1,.container_section_2{
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.container_section_1{
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 30%, rgba(255, 255, 0, 0.8) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container_section_2{
+    background: linear-gradient(90deg, rgba(255, 255, 0, 0.8) 0%,rgba(0,0,0,0) 70%, rgba(0,0,0,0) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.section_div_roaster{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    height: 70%;
+
+}
+
+.section_div_img,.section_div_img2,.section_div_img3,.section_div_img4,.section_div_img5,.section_div_img6{
+    width: 600px;
+    height: 430px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../assets/img/Jessica-Monetti-head-of-operations-at-Macellaio-RC-on-wine.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+.section_div_img2{
+    background-image: url(../assets/img/Nick-Mattera.jpg);
+}
+
+.section_div_img3{
+    background-image: url(../assets/img/ba26e2cf542639e78cbdf0b17c19e4a4.jpg);
+    background-position-y: -100px;
+    background-position-x: -20px;
+}
+
+.section_div_img4{
+    background-image: url(../assets/img/images.jpeg);
+}
+
+.section_div_img5{
+    background-image: url(../assets/img/02b3628da347b07d5055f7bf23b3cab4.jpg);
+}

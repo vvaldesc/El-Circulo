@@ -1,0 +1,28 @@
+footer{
+    margin: auto;
+    min-width: 600px;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.footer_hrVertical,.container_hrVertical_right,.container_hrVertical_left{
+    border-left: 3px solid yellow;
+    width: 0;
+}
+
+.footer_section1{
+    width: 48%;
+
+}
+
+.footer_section2{
+    width: 48%;
+    display: flex;
+
+}
+
+.footer_div_sections{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}

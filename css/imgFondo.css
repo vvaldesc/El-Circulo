@@ -1,0 +1,17 @@
+.imgFondo{
+    background-color: black;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+
+.videoFondo{
+    margin-top: 60px;
+    display: block;
+    background-color: black;
+    background-image: url();
+    z-index: 20;
+    width: 100%;
+}

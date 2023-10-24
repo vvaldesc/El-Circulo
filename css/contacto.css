@@ -1,0 +1,17 @@
+.container_divUbicacion{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+}
+
+.divUbicacion_embed{
+    margin: auto;
+    width: 500px;
+    height: 250px;
+    border: 1px solid white;
+}
+
+.container_ytIframe{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
